@@ -3,22 +3,23 @@ body{
     color: #000;
     font-family: Urbanist;
     background-color: #ccc;
-    font-size: 12px;
-}
-@media only screen and (min-width: 700px) {
+    font-size: 12px;}
+    .container{
+        display: flex;
+    }
+@media only screen and (min-width: 768px) {
     body{
         background-color: #fff;
         font-size: 20px;
         color: #000;
     }
 }
-@media (min-width: 500px) and (max-width: 700px) {
+/* @media only screen and (min-width: 768px){}
     body{
         background-color: #fff;
         font-size: 20px;
         color: #000;
-    }
-}
+    } */
 /* @media only screen and (min-width:480px){
     body{  
     font-size: 20px;
