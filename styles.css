@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap');
+body{
+    color: #000;
+    font-family: Urbanist;
+    background-color: #ccc;
+    font-size: 12px;
+}
+@media only screen and (min-width: 700px) {
+    body{
+        background-color: #fff;
+        font-size: 20px;
+        color: #000;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    body{
+        background-color: #fff;
+        font-size: 20px;
+        color: #000;
+    }
+}
+/* @media only screen and (min-width:480px){
+    body{  
+    font-size: 20px;
+    background-color: #3D3B8E;
+    color: #fff;
+}
+}
+@media only screen and (max-width:750px){
+    body{  
+    font-size: 50px;
+    background-color: #B0E298;
+    color: #000;
+    }
+} */
